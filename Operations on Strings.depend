@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1678210299 source:c:\users\hp\desktop\programy na github\c++\programs\wszystkie funkcje - stringi\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	"Nowy.h"
+
+1664582873 c:\users\hp\desktop\programy na github\c++\programs\wszystkie funkcje - stringi\nowy.h
+	<iostream>
+	<string>
+	<cstdlib>
+
+1678209447 source:c:\users\hp\desktop\programy na github\c++\programs\wszystkie funkcje - stringi\nowy.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<algorithm>
+	<windows.h>
+	"Nowy.h"
+
+1678213899 source:c:\users\hp\desktop\portfolio programy na github\c++\programs\operations on strings\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	"Nowy.h"
+
+1664586473 c:\users\hp\desktop\portfolio programy na github\c++\programs\operations on strings\nowy.h
+	<iostream>
+	<string>
+	<cstdlib>
+
+1680095042 source:f:\my portafolio it ulepszona\c++\programs\operations on strings\nowy.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<algorithm>
+	<windows.h>
+	"Nowy.h"
+
+1742174094 f:\my portafolio it ulepszona\c++\programs\operations on strings\nowy.h
+	<iostream>
+	<string>
+	<fstream>
+	"Utils.h"
+
+1742174090 f:\my portafolio it ulepszona\c++\programs\operations on strings\utils.h
+	<windows.h>
+	<iostream>
+	<limits>
+
+1742174094 source:f:\my portafolio it ulepszona\c++\programs\operations on strings\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	"Nowy.h"
+	"Utils.h"
+	<stdexcept>
+
