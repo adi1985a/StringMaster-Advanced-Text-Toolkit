@@ -21,6 +21,8 @@ _A comprehensive C++ console application for a wide array of string manipulation
 
 **StringMaster Pro** is a versatile C++ console application designed to be your go-to tool for a multitude of string and text manipulation tasks. It empowers users to perform operations such as finding and replacing text, removing sections, reversing strings, concatenating multiple texts, and converting case. Unique features include a gender guesser based on names and an ASCII value converter. The program supports saving your work to and loading from files, ensuring your manipulated text is preserved. With its colorful, menu-driven interface and built-in error handling, StringMaster Pro offers a robust and user-friendly experience for all your text processing needs.
 
+![Demo GIF](screenshots/1.gif)
+
 ## ✨ Key Features
 
 *   ✍️ **Text Editing & Manipulation**:
@@ -44,9 +46,21 @@ _A comprehensive C++ console application for a wide array of string manipulation
 
 ## 🖼️ Screenshots
 
-**Coming soon!**
+_Screenshots showcasing the main menu, various string operation dialogues, file operations, the help screen, and other key interface elements._
 
-_This section will be updated with screenshots showcasing the main menu, various string operation dialogues, file operations, the help screen, and other key interface elements._
+<p align="center">
+  <img src="screenshots\1.jpg" width="300"/>
+  <img src="screenshots\2.jpg" width="300"/>
+  <img src="screenshots\3.jpg" width="300"/>
+  <img src="screenshots\4.jpg" width="300"/>
+  <img src="screenshots\5.jpg" width="300"/>
+  <img src="screenshots\6.jpg" width="300"/>
+  <img src="screenshots\7.jpg" width="300"/>
+  <img src="screenshots\8.jpg" width="300"/>
+  <img src="screenshots\9.jpg" width="300"/>
+  <img src="screenshots\10jpg" width="300"/>
+</p>
+
 
 ## ⚙️ System Requirements
 
