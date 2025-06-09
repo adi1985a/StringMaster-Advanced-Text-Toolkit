@@ -7,16 +7,16 @@
 class String1 {
 private:
     std::string tekst;
-    std::string tekst2;
-    std::string szukaj;
-    std::string imie;
     std::ofstream logFile;
+
+    void logError(const std::string& error);
 
 public:
     String1();
     ~String1();
-    
-    void wpisz_tekst();
+
+    static void displayHeader();
+
     void zastap_fraze();
     void znajdz();
     void usun();
@@ -28,13 +28,8 @@ public:
     void ascii();
     void duze();
     void male();
-    
-    // New functions
+
     void saveToFile();
     void loadFromFile();
     void displayHelp();
-    void logError(const std::string& error);
-    static void displayHeader();
 };
-
-

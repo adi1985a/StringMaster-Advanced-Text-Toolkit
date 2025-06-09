@@ -1,37 +1,39 @@
 #pragma once
 #include <windows.h>
 #include <iostream>
+#include <string>
 #include <limits>
 
 namespace Utils {
     enum Color {
-        WHITE = 7,
-        LIGHT_BLUE = 11,
-        LIGHT_GREEN = 10,
-        LIGHT_RED = 12,
+        WHITE        = 7,
+        LIGHT_BLUE   = 11,
+        LIGHT_GREEN  = 10,
         LIGHT_YELLOW = 14,
-        LIGHT_PURPLE = 13
+        LIGHT_PURPLE = 13,
+        LIGHT_RED    = 12
     };
 
-    inline void setColor(Color color) {
-        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
+    const std::string SEPARATOR = "----------------------------------------";
+
+    inline void setColor(Color c) {
+        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), c);
     }
 
-    inline void drawLine(char symbol = '-', int length = 50) {
-        std::string line(length, symbol);
-        std::cout << line << std::endl;
+    inline void drawLine(char ch = '-', int len = 52) {
+        std::cout << std::string(len, ch) << "\n";
     }
 
     inline void clearScreen() {
-        #ifdef _WIN32
-            system("cls");
-        #else
-            system("clear");
-        #endif
+    #ifdef _WIN32
+        system("cls");
+    #else
+        system("clear");
+    #endif
     }
 
     inline void waitForKeyPress() {
-        std::cout << "\nPress Enter to continue...";
+        std::cout << "\n[Press Enter to return]";
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         std::cin.get();
     }
