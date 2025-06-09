@@ -58,10 +58,10 @@ _Screenshots showcasing the main menu, various string operation dialogues, file 
   <img src="screenshots\Image7.jpg" width="300"/>
   <img src="screenshots\Image8.jpg" width="300"/>
   <img src="screenshots\Image9.jpg" width="300"/>
-  <img src="screenshots\Image10jpg" width="300"/>
+  <img src="screenshots\Image10.jpg" width="300"/>
   <img src="screenshots\Image11.jpg" width="300"/>
   <img src="screenshots\Image12.jpg" width="300"/>
-  <img src="screenshots\Image13jpg" width="300"/>
+  <img src="screenshots\Image13.jpg" width="300"/>
 </p>
 
 
